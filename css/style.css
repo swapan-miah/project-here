@@ -15,15 +15,15 @@ body {
   color: #00afaa !important;
 }
 
-ul li:last-child {
+nav ul li:last-child {
   background-color: #00afaa;
-  border-radius: 50px;
+  border-radius: 20px;
   border: 1px solid transparent;
   transition: all 0.5s ease-in-out;
   /* color: white !important; */
 }
 
-ul li:last-child a {
+nav ul li:last-child a {
   color: white !important;
 }
 
@@ -81,3 +81,81 @@ ul li:last-child:hover {
   color: white;
 }
 /* get start section end  */
+
+/* Footer section start  */
+#footer{
+  background: #3F454D;
+}
+.hr{
+
+  background-color: #60666D;
+  height: 5px;
+
+}
+/* Footer section end  */
+
+
+/* media Queary start  */
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+  #banner h2{
+    font-size: 1.6rem !important;
+  }
+  #banner p{
+    font-size: 1rem !important;
+  }
+  #banner .my_Button{
+    font-size: 0.6 !important;
+  }
+  .list-item-custom{
+    width: 50%;
+    text-align: center;
+  }
+  #public_sector .order-sm-1{
+    order: 1 !important;
+  }
+  #public_sector .order-sm-0{
+    order: 2 !important;
+  }
+  #build h3{
+    font-size: 1rem;
+  }
+  #build p{
+    font-size: 0.8rem;
+  }
+  #build button{
+    font-size: 0.8rem;
+  }
+  #getStart h2{}
+ }
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+  #footer ul{
+    font-size: 1rem;
+    text-align: center;
+  }
+  #footer h3{
+    text-align: left;
+  }
+  .public_section_class{
+    flex-direction: column-reverse;
+  }
+
+ }
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+  .button-group{
+    width: 50%;
+  }
+  
+ }
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { }
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {  }
+
+/* media Queary end */
