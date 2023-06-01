@@ -1,3 +1,14 @@
+/* google font  */
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:wght@400;600;700;900&family=Satisfy&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:wght@400;600;700;900&family=Satisfy&display=swap");
+
+/* ------------- */
+htm,
+body {
+  font-family: "Raleway", sans-serif;
+}
 .active {
   font-weight: 700;
   font-size: 20px;
@@ -27,4 +38,46 @@ ul li:last-child:hover {
 
 #banner {
   background-image: url(../images/ima.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
+.my_Button {
+  background-color: #00afaa;
+  border-radius: 50px;
+  border: 1px solid transparent;
+  transition: all 0.5s ease-in-out;
+  padding: 8px 15px;
+  color: white;
+  font-weight: 600;
+}
+
+#build {
+  background: #eeeeee;
+}
+
+/* Unlock The power Section start    */
+.arrow {
+  border-radius: 50%;
+  color: white;
+  font-weight: 900;
+}
+
+.card {
+  border: none !important;
+}
+
+/* get start section start  */
+.text-Custom {
+  color: rgb(177, 176, 176);
+}
+
+.getStartButton {
+  border: 3px slid green !important;
+  padding: 5px 8px;
+  border-radius: 16px;
+  border: 3px solid #00ff37;
+  background: transparent;
+  color: white;
+}
+/* get start section end  */
